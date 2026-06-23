@@ -13,7 +13,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Slf4j
-@Service @RequiredArgsConstructor
+@Service
+@RequiredArgsConstructor
 public class PostServiceImpl implements PostService{
 
     private final PostRepository postRepository;
